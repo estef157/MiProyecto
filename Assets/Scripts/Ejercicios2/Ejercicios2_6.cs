@@ -4,16 +4,21 @@ using UnityEngine;
 
 public class Ejercicios2_6 : MonoBehaviour
 {
+    int primeraPuntuacion = 2;
+    int segundaPuntuacion = 3;
+    int terceraPuntuacion = 4;
+    int media = 0;
 
-    // Start is called before the first frame update
     void Start()
     {
-        
+        Debug.Log(primeraPuntuacion);
+        Debug.Log(segundaPuntuacion);
+        Debug.Log(terceraPuntuacion);
+        media = primeraPuntuacion + segundaPuntuacion + terceraPuntuacion;
+        media = media / 3;
+        Debug.Log(media);
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }
