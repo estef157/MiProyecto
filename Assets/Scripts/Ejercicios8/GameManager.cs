@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+
     Personaje link;
     Personaje Mario;
     
@@ -18,5 +19,13 @@ public class GameManager : MonoBehaviour
     {
        
     }
+
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
 
 }
